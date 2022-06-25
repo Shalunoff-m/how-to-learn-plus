@@ -1,0 +1,15 @@
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  opacity: 100%;
+
+  /* Незначительное выравнивание иконки отнсительно строки с текстом */
+  position: relative;
+  top: 2px;
+}
+/* .footer__column-link:hover .footer__social-icon{
+  opacity: 50%;
+
+
+} */
