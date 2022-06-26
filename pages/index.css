@@ -7,8 +7,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/root/root.css);
-@import url(../mix/show.css);
-@import url(../mix/rotation.css);
+@import url(../blocks/rotation/rotation.css);
 
 
 /* импорт основных блоков */
@@ -25,6 +24,7 @@
 
 /* Импорт Video */
 @import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 
 /* Импорт feynman */
 @import url(../blocks/feynman/__link/feynman__link.css);
