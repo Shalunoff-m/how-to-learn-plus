@@ -3,14 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-right: 100px; */
   text-align: center;
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
-/* .cards__item:nth-child(3){
-  margin-right: 0; */
-}
-/* .cards__item_no-margin {
-  margin-right: 0;
-} */

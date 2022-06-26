@@ -7,8 +7,8 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/rotation/rotation.css);
-
 
 /* импорт основных блоков */
 @import url(../blocks/description/description.css);
@@ -20,7 +20,6 @@
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
-@import url(../blocks/resources/resources.css);
 
 /* Импорт Video */
 @import url(../blocks/video/__iframes/video__iframes.css);
@@ -86,16 +85,12 @@
 
 /* .resources */
 @import url(../blocks/resources/resources.css);
-@import url(../blocks/resources/__link/resources__link.css);
-@import url(../blocks/resources/__link/_logo/resources__link_logo_arzamas.css);
-@import url(../blocks/resources/__link/_logo/resources__link_logo_n1.css);
-@import url(../blocks/resources/__link/_logo/resources__link_logo_polka.css);
-@import url(../blocks/resources/__link/_logo/resources__link_logo_strelka.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__link/resources__link.css);
+@import url(../blocks/resources/__image/resources__image.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 
-
-/* @import url(../blocks/footer/footer.css); */
-
+/* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
@@ -105,19 +100,3 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-/* .header__square-pic {
-  height: 568px;
-  width: 568px;
-} */

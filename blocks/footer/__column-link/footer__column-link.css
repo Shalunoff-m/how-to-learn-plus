@@ -2,17 +2,15 @@
   display: block;
   text-decoration: none;
   color: white;
-  display: block;
   margin-bottom: 10px;
   opacity: 100%;
   transition: opacity 0.5s;
-
   line-height: 18px;
   font-size: 18px;
   font-weight: normal;
 }
 
-.footer__column-link:last-child{
+.footer__column-link:last-child {
   margin-bottom: 0;
 }
 

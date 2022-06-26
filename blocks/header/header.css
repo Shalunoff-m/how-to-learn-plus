@@ -10,5 +10,4 @@
   position: relative;
   overflow: hidden;
   z-index: 0;
-  /* выше установили ограничения для секции */
 }

@@ -2,13 +2,8 @@
   text-decoration: none;
   color: #2f80ed;
   font-weight: normal;
-
   opacity: 100%;
   transition: opacity 0.5s;
-}
-
-.header__link::after {
-  content: " →";
 }
 
 .header__link:hover {
