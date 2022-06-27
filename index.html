@@ -23,9 +23,8 @@
         <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
-        <section class="description">
-          <!-- Пробовал нижестоящую строчку семантически размечать как <article>, в таком случае страница не проходит валидацию, а так  все проходит -->
-          <div class="two-colums">
+        <section class="description" aria-label="Статья о проблемах в обучении">
+          <article class="two-colums">
             <h2 class="two-colums__brief">Главные проблемы в обучении</h2>
             <div class="two-colums__main-text">
               <p class="two-colums__paragraph">
@@ -46,7 +45,7 @@
                 техники применяются на примере обучения в Практикуме.
               </p>
             </div>
-          </div>
+          </article>
         </section>
         <section class="techniques">
           <h2 class="section-title">Техники обучения</h2>
@@ -129,8 +128,8 @@
             ></iframe>
           </div>
         </section>
-        <section class="oakley">
-          <div class="two-colums">
+        <section class="oakley" aria-label="История Барбары Оакли">
+          <article class="two-colums">
             <h2 class="two-colums__brief">История Барбары Оакли</h2>
             <div class="two-colums__main-text">
               <p class="two-colums__paragraph">
@@ -144,7 +143,7 @@
                 кому все яснос первого взгляда.
               </p>
             </div>
-          </div>
+          </article>
         </section>
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
@@ -333,11 +332,11 @@
           </div>
           <div class="footer__column footer__column_content_info">
             <h3 class="footer__column-heading">О Практикуме</h3>
-            <div class="footer__column-links">
+            <nav class="footer__column-links">
               <a class="footer__column-link" href="#">Главная</a>
               <a class="footer__column-link" href="#">Концепция</a>
               <a class="footer__column-link" href="#">Наставники</a>
-            </div>
+            </nav>
           </div>
           <div class="footer__column footer__column_content_social">
             <h3 class="footer__column-heading">Соцсети</h3>
